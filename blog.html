@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONVOCATION 2020</h1>
+
+    </section>
+    <!---------blog page content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our certificate and online programs for 2021</h2>
+                <p>For the class of 2020, the COVID-19 pandemic delineated and revamped their last year of college. At
+                    the end of March, campus closures capsized students’ college lives, compelling them to wind up their
+                    final year virtually. And now, students and their families are dealing with the reality of virtual
+                    graduations standing in lieu of the traditional in-person ceremonies.
+                    <br>
+                    The ceremony kicked off with the lighting of the lamp by the host, Dr. A.P. Krishna, Registrar BIT
+                    Mesra.
+                    After several months of contemplation, Birla Institute of Technology, Mesra ultimately organised the
+                    30th convocation ceremony on 12th December, 2020 from 11:00 AM. It was reflective of the ground
+                    realities during the coronavirus pandemic as the event was colonised through a digital platform,
+                    Youtube Livestream, for awarding degrees to the Doctoral, Post-Graduate, Undergraduate, and Diploma
+                    Students graduating this year. Instead of joining a procession in caps and gowns and publicly
+                    receiving their degrees, the graduating batch of 2019 logged in to the ceremony from home. The
+                    occasion was graced by the presence of Smt. Droupadi Murmu, Hon’ble Governor of Jharkhand and
+                    Chancellor of the institute. Among the important dignitaries attending the event were Dr. Vijay
+                    Kumar Saraswat, Padma Bhushan recipient, also a member of NITI Aayog, as the Chief Guest for the
+                    ceremony, and Shri C.K. Birla, Chairman, Board of Governors, BIT Mesra as the Guest of Honour
+                </p>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Visiting Companies</h3>
+                <div>
+                    <span>Amdocs</span>
+
+                </div>
+                <div>
+                    <span>Deloitte</span>
+
+                </div>
+                <div>
+                    <span>MAQ software</span>
+
+                </div>
+                <div>
+                    <span>Cognizant</span>
+
+                </div>
+                <div>
+                    <span>Walmart</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----footer------------------->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!------JavaScript for Toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
